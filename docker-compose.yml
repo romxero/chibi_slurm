@@ -199,7 +199,6 @@ services:
       - cluster-etc-slurm:/etc/slurm
       - mail:/var/spool/mail/
       - auth:/auth/
-      - xdmod:/xdmod/
       - src:/usr/local/src/
 
       - /dev/log:/dev/log
